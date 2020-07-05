@@ -10,9 +10,9 @@ CS50's AP® Computer Science Principles
 
 
 1. Computer and Binary System
-- Fundamantely, human and computer count in the same way but computers have 'smaller vocabulary'.
+- Fundamentally, human and computer count in the same way but computers have 'smaller vocabulary'.
 - but WHY?
-    because binary system is more convinient in the physical world, to be able to represent only two states(on/off) instead of 10. 
+    because the binary system is more convenient in the physical world, to be able to represent only two states(on/off) instead of 10. 
 
 - to represent number
     ex) human way: 7
@@ -25,24 +25,24 @@ CS50's AP® Computer Science Principles
 - At the end of the day, all the computer is storing is 0s and 1s, 
 - but it's up to the ✨program✨ to interpret those 0s and 1s in a certain way.
     ex) if a program like Microsoft Word or Google Docs sees a pattern of bits in a file that represents the decimal number 65-- 
-        it's still pattern of 0s and 1s expressed in binary, but of course, we've seen how we can convert that to decimal. 
+        it's still a pattern of 0s and 1s expressed in binary, but of course, we've seen how we can convert that to decimal. 
         So if a computer is ultimately storing a pattern of 0s and 1s that represents the decimal number 65, the computer, 
-        in this case Microsoft Word, or Google Docs, and the program running there, is going to interpret that pattern, 
+        in this case, Microsoft Word, or Google Docs, and the program running there, is going to interpret that pattern, 
         not as the number 65, and not as a whole bunch of 0s and 1s alone, but as the capital letter A.
         It is called mapping numbers to letters.
 
 
 2. CPU (Central Processing Unit)
-- 🧠 brain of the computer
-- whole bunch of golden pins
+- 🧠 the brain of the computer
+- a whole bunch of golden pins
 - connected to motherboard 
-- what kind of the thinking it does?: to perform amath, to display letters etc
+- what kind of thinking it does?: to perform math, to display letters, etc
     in the CPU there are one or more cores 
 
 
 3. Core(s) 
 - there is/are core(s) in the CPU
-- multiple core means: it can do multiple things at the same time
+- multiple cores means: it can do multiple things at the same time
 - hyperthreading
 
 
@@ -71,16 +71,16 @@ CS50's AP® Computer Science Principles
 7.SSD (Solid State Drive) -❕memory device 
 - data persist when the power is off (⚡️nonvolatile)
 - entirely electronic 
-- much more faster than hard drive
-- doens't have a spinning device 
+- much faster than a hard drive
+- doesn't have a spinning device 
 
 
 8. hybrid drive -❕memory device 
 
 
 9. flash drive (portable) -❕memory device 
-- solid state drive (external) (⚡️nonvolatile)
-- a.k.a called usb or hard drive
+- solid-state drive (external) (⚡️nonvolatile)
+- a.k.a called USB or hard drive
 
 
 10. ✨Like a Funnel! 
@@ -88,9 +88,9 @@ Disk -> RAM (-> L3 cache -> L2 cache -> L1 cache) -> CPU -> Registers
 
 
 11. Connectors (a.k.a called Bus)
-- various usb types
-- wht is it important?
-    even though you have a super fast, fancy flash drive, if you have a old, slow connector, the performance can be maximized.
+- various USB types
+- why is it important?
+    even though you have a super-fast, fancy flash drive, if you have an old, slow connector, the performance can be maximized.
 
 
 12. WI-FI
@@ -112,4 +112,4 @@ Disk -> RAM (-> L3 cache -> L2 cache -> L1 cache) -> CPU -> Registers
 
 
 
-Transcript of the lecture : http://cdn.cs50.net/cscie1a/2017/fall/lectures/hardware/lang/en/hardware.txt
+Transcript of the lecture: http://cdn.cs50.net/cscie1a/2017/fall/lectures/hardware/lang/en/hardware.txt
