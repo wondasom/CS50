@@ -1,0 +1,115 @@
+
+👩🏻‍💻 HarvardX: CS50
+CS50's AP® Computer Science Principles
+
+👉🏼 Course 👉🏼 CS50's Understanding Technology 👉🏼 Hardware 👉🏼 Lecture
+
+
+
+< 💻 Hardware >
+
+
+1. Computer and Binary System
+- Fundamantely, human and computer count in the same way but computers have 'smaller vocabulary'.
+- but WHY?
+    because binary system is more convinient in the physical world, to be able to represent only two states(on/off) instead of 10. 
+
+- to represent number
+    ex) human way: 7
+        computer way: 1 1 1( = 💡💡💡) 
+
+- to represent letters
+    ex) human way: HI
+        computer way: 010100 010101 ( = 0💡0💡00 0💡0💡0💡) with ASCII chart or UNICODE etc(even emoji characters!)
+
+- At the end of the day, all the computer is storing is 0s and 1s, 
+- but it's up to the ✨program✨ to interpret those 0s and 1s in a certain way.
+    ex) if a program like Microsoft Word or Google Docs sees a pattern of bits in a file that represents the decimal number 65-- 
+        it's still pattern of 0s and 1s expressed in binary, but of course, we've seen how we can convert that to decimal. 
+        So if a computer is ultimately storing a pattern of 0s and 1s that represents the decimal number 65, the computer, 
+        in this case Microsoft Word, or Google Docs, and the program running there, is going to interpret that pattern, 
+        not as the number 65, and not as a whole bunch of 0s and 1s alone, but as the capital letter A.
+        It is called mapping numbers to letters.
+
+
+2. CPU (Central Processing Unit)
+- 🧠 brain of the computer
+- whole bunch of golden pins
+- connected to motherboard 
+- what kind of the thinking it does?: to perform amath, to display letters etc
+    in the CPU there are one or more cores 
+
+
+3. Core(s) 
+- there is/are core(s) in the CPU
+- multiple core means: it can do multiple things at the same time
+- hyperthreading
+
+
+4. Chip(s)
+- other components in the computer
+- usually in the iPad etc
+
+
+5. RAM (Random Access Memory) -❕memory device
+- in the motherboard
+- it stores data only when it is running (❗️volatile)
+- electronic
+
+
+6. Hard Drive (Hard Disk) -❕memory device
+- where the data is stored even when the power is off (⚡️nonvolatile)
+- much bigger than RAM
+- there is a fan
+- mechanical device!
+- it uses tiny magnetic particles depending on their orientation up or down, represent a 1 or 0.
+    And if you have enough of those particles, 
+    you can represent bytes or megabytes or gigabytes or terabytes or more or anything in between. 
+    And so you have the ability to store data this way or this way, even when the power is off. 
+
+
+7.SSD (Solid State Drive) -❕memory device 
+- data persist when the power is off (⚡️nonvolatile)
+- entirely electronic 
+- much more faster than hard drive
+- doens't have a spinning device 
+
+
+8. hybrid drive -❕memory device 
+
+
+9. flash drive (portable) -❕memory device 
+- solid state drive (external) (⚡️nonvolatile)
+- a.k.a called usb or hard drive
+
+
+10. ✨Like a Funnel! 
+Disk -> RAM (-> L3 cache -> L2 cache -> L1 cache) -> CPU -> Registers 
+
+
+11. Connectors (a.k.a called Bus)
+- various usb types
+- wht is it important?
+    even though you have a super fast, fancy flash drive, if you have a old, slow connector, the performance can be maximized.
+
+
+12. WI-FI
+
+
+13. Bluetooth
+- usually connects personal devices
+
+
+14. operating system
+- it's the operating system, ultimately, that is loaded into RAM from disk, and is what you ultimately see. 
+    gives the graphical windows that you see and the icons and the buttons that you can click
+    knows how to talk to your keyboard and your mouse etc.
+    knows how to display information on the screen. 
+    knows how to move things around in memory and disk and reading and writing all of that information.
+- And that's all thanks to software that comes with an operating system called device drivers-- 
+- special software designed to talk to a certain model of printer, to a certain model of camera, or scanner, and the like.
+
+
+
+
+Transcript of the lecture : http://cdn.cs50.net/cscie1a/2017/fall/lectures/hardware/lang/en/hardware.txt
