@@ -1,0 +1,65 @@
+
+👩🏻‍💻 HarvardX: CS50
+CS50's AP® Computer Science Principles
+
+👉🏼 Course 👉🏼 CS50's Understanding Technology 👉🏼 Hardware 👉🏼 Lecture
+
+
+
+< ✨ Internet >
+
+1. IP Address(Internet Protocol Address)
+- (IPv4) #.#.#.# 32-bit IP -> four billion possible IP address
+- (IPv6) #.#.#.#.#.#  128-bit IP -> 340282366920938463463374607431768211456 possible IP address
+- ISP(Internet Service Provider)
+- DHCP(Dynamic Host Configuration Protocol) from ISP 
+    which is a software that ISPs run and provide to you that allowed your laptop or phone working
+- multiple devices? they all need their unique addresses.
+
+
+2. DNS Server(Domain Name Service Server) from ISP 
+- convert domain names to IP addresses  
+
+
+3. TCP/IP (Transmission Control Protocol)
+- to ensure the data to get to the destination
+- specific number for a specific service, a port identifier
+- ex) 80: HTTP, 443: HTTPS, 25: e-mail etc.
+
+
+4. UDP(User Datagram Protocol)
+- does not guarantee delivery 
+- send a request but may/may not get a response
+- sometimes when you want the data they keep coming, and keep coming, especially when it's high volume, 
+- you don't want to stop and resent data, 
+- you want just to ignore it and trust that the users are going to be OK with that.
+- ex) live video conferencing, live sporting event
+
+
+5. Router
+- if your IP Address starts with 10 or 192.168 or 172.16, 
+- it means they most likely came from a home router, or a business router... (private IP)
+- several routers in an entity + several routers in an entity + ... + :networks of networks 
+- You can check the hops and the routing process with 'traceroute'
+
+
+6. Undersea Cables that power the Internet
+- The first transatlantic cable was laid in the 1850s to send telegraphs between Newfoundland and Ireland
+- There are now over 300 undersea cables stretching 550,000 miles.
+- That's enough to circle the earth 22 times
+- The longest cable hits 39 landing points from Germany to Korea, spanning 24,000 miles.
+- Some are laid over 25,000 ft below the ocean's surface.
+- The cables are less than 3 inches thick and house several optical fibers.
+- They transmit 99% of all international data.
+- Laying one cable across an ocean takes several months & costs hundreds of millions of dollars.
+
+
+7. Cable Modem, Switch, Home Router... 
+- coaxial connection 
+- phone jacks
+- RJ11
+- RJ45, ethernet cable
+- Wi-Fi support(wireless)
+
+
+It is sometimes so easy to ignore the physical foundation under the hood of the magic of the internet..!
