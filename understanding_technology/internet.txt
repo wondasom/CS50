@@ -62,4 +62,37 @@ CS50's AP® Computer Science Principles
 - Wi-Fi support(wireless)
 
 
+8. AN ANALOGY - to understand HTTP Request
+
+It can be tricky to understand how HTTP functions because it’s difficult to examine what your browser is actually doing. 
+(And perhaps also because we explained it using acronyms that may be new to you.) 
+Let’s review what we learned by using an analogy that could be more familiar to you.
+
+Imagine the internet is a town. You are a client and your address determines where you can be reached. 
+Businesses in town, such as Codecademy.com, serve requests that are sent to them. 
+The other houses are filled with other clients like you that are making requests and expecting responses from these businesses in town. 
+This town also has a crazy fast mail service, an army of mail delivery staff that can travel on trains that move at the speed of light.
+
+Suppose you want to read the morning newspaper. 
+In order to retrieve it, you write down what you need in a language called HTTP and ask your local mail delivery staff agent to retrieve it from a specific business. 
+The mail delivery person agrees and builds a railroad track (connection) between your house and the business nearly instantly, 
+and rides the train car labeled “TCP” to the address of the business you provided.
+
+Upon arriving at the business, she asks the first of several free employees ready to fulfill the request. 
+The employee searches for the page of the newspaper that you requested but cannot find it 
+and communicates that back to the mail delivery person.
+
+The mail delivery person returns on the light speed train, ripping up the tracks on the way back, 
+and tells you that there was a problem “404 Not Found.” 
+After you check the spelling of what you had written, you realize that you misspelled the newspaper title. 
+You correct it and provide the corrected title to the mail delivery person.
+
+This time the mail delivery person is able to retrieve it from the business. 
+You can now read your newspaper in peace until you decide you want to read the next page, 
+at which point, you would make another request and give it to the mail delivery person.
+
+
+
+
+
 It is sometimes so easy to ignore the physical foundation under the hood of the magic of the internet..!
