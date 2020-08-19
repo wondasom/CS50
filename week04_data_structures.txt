@@ -1,0 +1,49 @@
+👩🏻‍💻 HarvardX: CS50
+CS50's AP® Computer Science Principles
+
+👉🏼 Course 👉🏼 CS50x 2019 👉🏼 Week 4 👉🏼 Lecture
+
+
+Four Major Data Structures
+
+1. Array
+👍🏼 good
+- lookup: great, random access, constant time
+- sorting: relatively easy
+- size: relatively small
+👎🏼 bad
+- insertion: lots of shifting to fit an element in the middle
+- deletion: lots of shifting after removing an element
+- flexibility: stuck with a fixed size, no flexibility
+
+
+2. Linked Lists
+👍🏼 good
+- insertion: easy, just tack onto the front
+- deletion: easy, once you find the element
+- size: relatively small(not as small as arrays)
+👎🏼 bad
+- lookup: bad, have to rely on linear search
+- sorting: difficult to sort, unless you're willing to compromise on super-fast insertion and instead sort as you construct
+
+
+3. Hash Tables
+👍🏼 good
+- insertion(two-step process): hash, then add
+- deletion: easy, once you find the element
+- lookup: on average better than with linked lists because you have the benefit of a real-world constant factor
+👎🏼 bad
+- sorting: not an ideal data structure if sorting is the goal
+❓
+- size: can run the gamut of size
+
+
+4. Tries
+👍🏼 good
+- deletion: easy, just free a node
+- lookup: fast, not quite as fast as an array, but almost
+- sorting: already sorted, sorts as you build in almost all situations
+👎🏼 bad
+- size: rapidly becomes huge, even with very little data present, not great if space is at a premium
+❓
+- insertion: complex, a lot of dynamic memory allocation, but gets easier as you goal 
